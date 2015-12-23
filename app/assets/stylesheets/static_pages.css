@@ -41,7 +41,52 @@ header h1{
     -o-text-fill-color: transparent;
 }
 
+#any {
+    font-size: 25px;
+    top: 50%;
+    font-family: Verdana;
+    color: white;
+    opacity: .6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#any:after {
+    content: "\2026";
+    overflow: hidden;
+    width: 0px;
+    animation: any-anim steps(4, end) 900ms infinite;
+    -moz-animation: any-anim steps(4, end) 900ms infinite;
+    -o-animation: any-anim steps(4, end) 900ms infinite;
+    -webkit-animation: any-anim steps(4, end) 900ms infinite;
+}
+
 /* animation keyframes */
+@keyframes any-anim {
+    to {
+        width: 1.25em;
+    }
+}
+
+@-moz-keyframes any-anim {
+    to {
+        width: 1.25em;
+    }
+}
+
+@-o-keyframes any-anim {
+    to {
+        width: 1.25em;
+    }
+}
+
+@-webkit-keyframes any-anim {
+    to {
+        width: 1.25em;
+    }
+}
+
 @keyframes dogs {
     0% {background-position:0% 23%;}
     50% {background-position: 100% 78%;}
