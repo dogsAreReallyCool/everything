@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get 'static_pages/index'
+  get '', to: 'static_pages#index'
 end

@@ -1,0 +1,184 @@
+html {
+    background: linear-gradient(300deg, #a923aa, #5fd453, #53d4cf, #d55050);
+    background-size: 800%, 800%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: dogs 30s ease infinite;
+    -webkit-animation: dogs 30s ease infinite;
+    -moz-animation: dogs 30s ease infinite;
+    -o-animation: dogs 30s ease infinite;
+}
+
+header {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    background: url("https://media1.giphy.com/media/fLg3MEWdgH5Ti/200.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .8;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes dogs {
+    0% {background-position:0% 23%;}
+    50% {background-position: 100% 78%;}
+    100% {background-position: 0% 23%;}
+}
+
+@-webkit-keyframes dogs {
+    0% {background-position:0% 23%;}
+    50% {background-position: 100% 78%;}
+    100% {background-position: 0% 23%;}
+}
+
+@-moz-keyframes dogs {
+    0% {background-position:0% 23%;}
+    50% {background-position: 100% 78%;}
+    100% {background-position: 0% 23%;}
+}
+
+@-o-keyframes dogs {
+    0% {background-position:0% 23%;}
+    50% {background-position: 100% 78%;}
+    100% {background-position: 0% 23%;}
+}
+
+
+
+
+ /* ripperino coderino graveyarderino (it's to make code more readable) */
+/* html {
+         animation declarations
+    animation-name: dogs;
+    animation-duration: 40s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    background:#B8BEB4;
+    background: radial-gradient(#B8BEB4, #71685F);
+    background: -webkit-radial-gradient(#B8BEB4, #71685F);
+    background-size:cover;
+}*/
+ /*header h1:hover {
+    font-size:500px;
+}*/
+
+/*@keyframes background-anim {
+    0% {color: #095050;}
+    25% {color: #470D58;}
+    50% {color: #1D5200;}
+    75% {color: #A9372E;}
+    100% {color: #5E5100;}
+}*/
+/* header {
+       /* position: static;
+    left: 50%;
+    top: 50%;*/
+    /*animation-name: header-anim;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    text-shadow: 2px 2px #686868;
+}*/
+
+/* header h1{
+   background-size:cover; 
+   text-shadow: 2px 3px #ff0000;
+}*/
+
+
+/*first hr i think*/
+/*
+hr {
+    display:block;
+    position:absolute;
+    z-index:0;
+    left:0px;
+    width:100%;
+    margin:0;
+}
+
+hr.right {
+    left:auto;
+    right:0px;
+}
+
+hr.meme1{
+    top: 10px;
+    -webkit-animation: meme1 3s;
+    -moz-animation: meme1 3s;
+    -o-animation: meme1 3s;
+    animation: meme1 3s;
+}
+
+@-webkit-keyframes meme1 {
+    0% { 
+        width: 100%;
+    }
+    50% { 
+        width: 100%;
+    }
+    80% { 
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@-moz-keyframes meme1 {
+    0% { 
+        width: 100%;
+    }
+    50% { 
+        width: 100%;
+    }
+    80% { 
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@-o-keyframes meme1 {
+    0% { 
+        width: 100%;
+    }
+    50% { 
+        width: 100%;
+    }
+    80% { 
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+@keyframes meme1 {
+    0% { 
+        width: 100%;
+    }
+    50% { 
+        width: 100%;
+    }
+    80% { 
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
+*/
+
+/*#frame1 {
+    position: absolute;
+    vertical-align: middle;
+    font-size: 75px;
+}*/
