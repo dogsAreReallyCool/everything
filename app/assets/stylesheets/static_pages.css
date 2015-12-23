@@ -16,16 +16,16 @@ html {
 
 /* just define our header stuff, pretty straight foward */
 header {
-    font-size: 86px;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-shadow: 0 0 25px rgba(0, 255, 255, .4);
     text-align: center;
 }
 
 /*this is the meme that masks the text 'welcome'*/
-header h1{
+#oh{
+    font-size: 120px;
+    text-shadow: 0 0 25px rgba(0, 255, 255, .4);
     /* the meme's url*/
     background: url("https://media1.giphy.com/media/fLg3MEWdgH5Ti/200.gif");
     background-repeat: no-repeat;
