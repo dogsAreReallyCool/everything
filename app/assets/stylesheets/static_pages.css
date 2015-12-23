@@ -1,14 +1,20 @@
 html {
+    /* creates a linear gradient bearing 300, with the colors listed*/
     background: linear-gradient(300deg, #a923aa, #5fd453, #53d4cf, #d55050);
+    /* changes size to 800%, keep in mind the page only shows 100% */
     background-size: 800%, 800%;
+    /* has to be included to change position */
     background-attachment: fixed;
     background-repeat: no-repeat;
+    /* calls animation 'dogs' with a duration of 30 seconds that eases in and repeats for infinity */
     animation: dogs 30s ease infinite;
+    /* everything after animation: is simply to make it work with every browser */
     -webkit-animation: dogs 30s ease infinite;
     -moz-animation: dogs 30s ease infinite;
     -o-animation: dogs 30s ease infinite;
 }
 
+/* just define our header stuff, pretty straight foward */
 header {
     font-size: 100px;
     display: flex;
@@ -16,16 +22,26 @@ header {
     align-items: center;
 }
 
+/*this is the meme that masks the text 'welcome'*/
 header h1{
+    /* the meme's url*/
     background: url("https://media1.giphy.com/media/fLg3MEWdgH5Ti/200.gif");
     background-repeat: no-repeat;
+    /* this covers the entire h1 */
     background-size: cover;
     opacity: .8;
+    /* this is what actually masks it, also ignore the error*/
     background-clip: text;
+    /* the rest is for cross-browser compatability */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -o-background-clip: text;
+    -o-text-fill-color: transparent;
 }
 
+/* animation keyframes */
 @keyframes dogs {
     0% {background-position:0% 23%;}
     50% {background-position: 100% 78%;}
@@ -49,8 +65,6 @@ header h1{
     50% {background-position: 100% 78%;}
     100% {background-position: 0% 23%;}
 }
-
-
 
 
  /* ripperino coderino graveyarderino (it's to make code more readable) */
